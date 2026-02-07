@@ -64,13 +64,6 @@ This architecture ensures:
 
 ---
 
-### 5. Semantic Model & Power BI
-- A semantic model is created from Fact and Dimension tables.
-- Relationships are defined.
-- Power BI connects to the model for analytics and visualization.
-
----
-
 ### 6. Automation Using Fabric Pipeline
 - All notebooks are executed through a single pipeline.
 - Trigger is configured:
@@ -82,15 +75,10 @@ This architecture ensures:
 ## 🛠 Technology Stack
 
 - Microsoft Fabric  
-- Lakehouse  
-- PySpark  
-- Spark SQL  
-- Delta Tables  
+- Lakehouse    
 - Medallion Architecture  
 - Slowly Changing Dimension (SCD Type 1)  
-- Power BI  
-- Fabric Pipelines  
-- Dimensional Modeling  
+- Fabric Pipelines   
 
 ---
 
@@ -100,7 +88,6 @@ This architecture ensures:
 - Layered Medallion architecture  
 - Automated pipeline execution  
 - Data cleaning and transformation  
-- Dimensional modeling  
 - Power BI-ready datasets  
 - Trigger-based automation  
 
